@@ -1,0 +1,35 @@
+{
+  "name": "tg-miner-block",
+  "version": "0.1.0",
+  "description": "Blocks mining sites",
+  "main": "webpack.config.js",
+  "scripts": {
+    "watch": "export NODE_ENV=development && node_modules/.bin/webpack --watch --progress",
+    "dev-build": "export NODE_ENV=development && node_modules/.bin/webpack --progress",
+    "prod-build": "export NODE_ENV=production && node_modules/.bin/webpack --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgsource/tg-miner-block.git"
+  },
+  "author": "Oleg E. Ivanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tgsource/tg-miner-block/issues"
+  },
+  "homepage": "https://github.com/tgsource/tg-miner-block#readme",
+  "devDependencies": {
+    "babel-core": "6.x.x",
+    "babel-loader": "7.x.x",
+    "babel-plugin-transform-object-rest-spread": "6.x.x",
+    "babel-preset-es2015": "6.x.x",
+    "babel-preset-stage-2": "6.x.x",
+    "clean-webpack-plugin": "0.x.x",
+    "copy-webpack-plugin": "4.x.x",
+    "crx-webpack-plugin": "0.x.x",
+    "uglifyjs-webpack-plugin": "0.x.x",
+    "webpack": "3.x.x",
+    "webpack-merge": "4.x.x",
+    "zip-webpack-plugin": "^2.0.0"
+  }
+}
