@@ -120,6 +120,9 @@
         // Allows func declaration
         "func-style": ["error", "declaration", { "allowArrowFunctions": true }],
 
+        // Allows confusing arrow"
+        "no-confusing-arrow": "off",
+
         // Allows not to use jsdoc
         "require-jsdoc": "off",
 
